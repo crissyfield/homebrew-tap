@@ -1,13 +1,13 @@
 cask "super-trouper" do
-  version "0.4.0"
+  version "0.5.0"
 
   on_arm do
-    sha256 "898243842b1e2eceefe61cfb862e2e1de329d786dd24b0cc0aa5d8d9577feb63"
+    sha256 "d25082e7c989c04f193b5291d454ca6284053972707ed2b8174c24abe42884b2"
     url "https://github.com/crissyfield/super-trouper/releases/download/v#{version}/super-trouper-#{version}-darwin-arm64.tar.xz"
   end
 
   on_intel do
-    sha256 "0a120acc5f28f3691deb5b7213d888da82fe88869a1cbc98e5f7647b659e4e91"
+    sha256 "4ddb02d4d6d6e01638f5dfe912ed30e3aa0cb511dc805125c2ac2160cd7c6303"
     url "https://github.com/crissyfield/super-trouper/releases/download/v#{version}/super-trouper-#{version}-darwin-amd64.tar.xz"
   end
 
